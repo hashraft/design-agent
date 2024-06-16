@@ -22,7 +22,12 @@
       new WOW().init();
     </script>
   </head>
-
+  <style>
+    /* Custom styles */
+    .blue-outline {
+      text-shadow: 0 0 2px #3B82F6, 0 0 2px #3B82F6, 0 0 2px #3B82F6; /* Blue outline effect */
+    }
+</style>
   <body>
     <!-- ====== Navbar Section Start -->
     <div
@@ -31,12 +36,10 @@
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a href="index.html" class="navbar-logo block w-full py-5">
-              <img
-                src="assets/images/logo/logo-white.svg"
-                alt="logo"
-                class="header-logo w-full"
-              />
+            <a href="/" class="navbar-logo block w-full py-5">
+              <div class="bg-gray-100 flex items-center justify-center h-screen">
+                <div class="text-white text-4xl font-bold blue-outline">Get A Designer.co</div>
+            </div>
             </a>
           </div>
           <div class="flex w-full items-center justify-between px-4">
@@ -4858,11 +4861,15 @@
                 href="javascript:void(0)"
                 class="mb-6 inline-block max-w-[160px]"
               >
-                <img
+                <!-- <img
                   src="assets/images/logo/logo-white.svg"
                   alt="logo"
                   class="max-w-full"
-                />
+                /> -->
+                <h3>
+                  <div class="text-white text-4xl font-bold blue-outline">Get A Designer.co</div>
+
+                </h3>
               </a>
               <p class="mb-8 max-w-[270px] text-base text-gray-7">
                 We provide unlimited design services through flexible subscription plans.
